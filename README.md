@@ -53,7 +53,7 @@ Run on lab_with_haikang dataset:
 ./run_mono_imu_on_ours.sh
 ```
 
-You need to modify the dataset path and output path respectively in run_mono_imu_on_kaist_*.sh and ./config/*/*.yaml
+You need to modify the dataset path and output path respectively in run_mono_imu_on_kaist_*.sh and ./config/haikang_camera(or KAIST)/*.yaml
 
 ## 5. Plan
 |  Module   | Status  |
