@@ -54,9 +54,11 @@ Run on lab_with_haikang dataset:
 ```
 
 You need to modify the following variable name:
+```
 1.dataset path: run_mono_imu_on_kaist_*.sh
-2.output path: ./config/haikang_camera(or KAIST)/your_yaml_name.yaml
+2.output path: ./config/haikang_camera(or KAIST)/your_yaml_name(hikang_mono_imu_config or KAIST_mono_imu_config).yaml
 3.opencv and cv_bridge path: all cmakelists file
+```
 
 ## 5. Plan
 |  Module   | Status  |
