@@ -42,6 +42,19 @@ Open four terminals, launch the vins_estimator, rviz and pubish the data file re
     rosrun vins_estimator kaist_pub YOUR_PATH_TO_DATASET/KAIST/urban28/urban28-pankyo
     roslaunch vins_estimator vins_rviz.launch
 ```
+
+Run on Kaist:
+```
+./run_mono_imu_on_kaist.sh
+```
+
+Run on lab_with_haikang dataset:
+```
+./run_mono_imu_on_ours.sh
+```
+
+You need to modify the dataset path and output path respectively in run_mono_imu_on_kaist_*.sh and ./config/*/*.yaml
+
 ## 5. Plan
 |  Module   | Status  |
 |  ----  | ----  |
